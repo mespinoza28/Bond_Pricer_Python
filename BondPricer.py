@@ -71,7 +71,8 @@ def bond_pricer(par, c, r, t, ytm, bond_type, freq, maturity, call_price, call_d
 
 ###Example
 
-print(bond_pricer(1000,7,1,10,9, bond_type= 'plain_vanilla', freq= 1))
+print(bond_pricer(1000,7,1,10,9, bond_type= 'plain_vanilla', freq= 1 ,maturity = None, call_price = None, call_date = None,
+                put_price = None, put_date = None))
 
 
 
